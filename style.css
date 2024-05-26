@@ -1,0 +1,23 @@
+body{
+    color:aliceblue;
+    background-color:pink;
+    font-family: courier;
+    font-weight: bold;
+    font-size: large;
+}
+p{
+    text-align: center;
+    font-style:italic;
+    font-family:'calibri';
+}
+h6{
+    font-family: Lucida Sans;
+    text-align: right;
+    font-weight:bold;
+    font-style: italic;
+    color:lightgreen;
+}h1{
+    color:blue;
+    font-style:italic;
+    font-family:monospace;
+}
