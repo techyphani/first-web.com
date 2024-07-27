@@ -1,0 +1,47 @@
+body{
+    text-align: right;
+    background-color:cornflowerblue;
+    
+}
+h1{
+    font-style: italic;
+    font-size: medium;
+    font-weight: bold;
+    text-align: right;
+}
+p{
+    text-align: center;
+    font-style:italic;
+    font-family:'calibri';
+}
+h6{
+    font-family: Lucida Sans;
+    text-align: right;
+    font-weight:bold;
+    font-style: italic;
+    color:lightgreen;
+    font-size: medium;
+}
+button{
+    color: blue;
+    font-style: italic;
+    font-family: 'Courier New';
+}
+#firstone{
+    color: aqua;    
+   }
+   #secondone{
+       color: aqua;
+   }
+   #thirdone{
+       color: aqua;    
+      }
+      #fourthone{
+       color: aqua;    
+      }
+      #fifthone{
+       color: rgb(140, 0, 255);    
+      }
+    #sixthone{
+       color:aqua;
+    }

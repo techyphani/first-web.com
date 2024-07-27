@@ -1,0 +1,48 @@
+body{
+    background-color: aqua;
+    color: aquamarine;
+    margin: 3px  3px 3px  3px;
+    font-family: 'Courier New';
+    font-weight: bold;
+    font-style: italic;
+}
+h1{
+    font-family: 'Courier New';
+    font-weight: bold;
+    font-style: italic;
+    color: #33bbcc;
+    display: flex;
+    font-size: 90px;
+}
+
+input{
+    border: solid aquamarine 3px;
+    width: 1080px;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px;
+    padding: 30px;
+}
+div{
+    margin: 12px 12px 12px 12px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    position: relative;
+    top: 150px;
+}
+.button{
+    border: solid #2211bb;
+    border-radius: 12px 12px 12px 12px;
+    cursor: pointer;
+}
+textarea{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #553fbc;
+    text-align: center;
+}

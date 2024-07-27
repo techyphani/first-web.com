@@ -1,0 +1,19 @@
+import pyttsx3
+a = pyttsx3.init()
+b=str(input('what is your name '))
+a.say(f"I will speak this text" + b)
+a.runAndWait()
+a.say('wait a minute' + b)
+a.say('please say your gender ' + b)
+a.runAndWait()
+c=str(input('pls say your gender '))
+if c=='male':
+ a.say('thank you ' + 'mister' + b)
+ a.say('can i call you mister? ' + b)
+elif c=='female':
+  a.say('thank you ' + 'misses' + b)
+  a.say('can i call you misses? ' + b)
+else:
+ a.say('you are pleased to say your gender')
+a.say('in this we are going to add so many things so you are pleased to enjoy' +  + b)
+a.runAndWait()

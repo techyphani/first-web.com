@@ -31,23 +31,49 @@ if (techyIndustryEmploye){
 
 
 function first(){
-  document.getElementById("first one").innerHTML="welcome first time"
+  document.getElementById("firstone").innerHTML="welcome first time"
 }
 function second(){
- document.getElementById("second one").innerHTML="welcome second time"
+ document.getElementById("secondone").innerHTML="welcome second time"
 }
 function third(){
-document.getElementById("third one").innerHTML="welcome third time"
+document.getElementById("thirdone").innerHTML="welcome third time"
 }
 function fourth(){
-  document.getElementById("fourth one").innerHTML="welcome fourth time"
+  document.getElementById("fourthone").innerHTML="welcome fourth time"
 }
 function fifth(){
-  document.getElementById("fifth one").innerHTML="welcome fifth time"
+  document.getElementById("fifthone").innerHTML="welcome fifth time"
 }
 function sixth(){
-  document.getElementById("sixth one").innerHTML="welcome sixth time"
+  document.getElementById("sixthone").innerHTML="welcome sixth time"
 }
 function seventh(){
-  document.getElementById("seventh one").innerHTML="welcome seventh time"
+ const el =document.getElementById("seventhone").value;
+ const p =document.querySelector(".another");
+ p.innerHTML= el;
+}  
+function changeDate(){
+  const el =document.querySelector(".onto").type="color"
+}
+function hw(){
+  document.getElementById("hello").innerHTML="maker the future"
+}
+function changefont(){
+  const el=document.querySelector("link")
+  el.href="one.css"
+  a=new SpeechSynthesisUtterance('changing font' + 'you are now viewing index page with changed font')
+  speechSynthesis.speak(a)
+}
+function onto1(){
+  const el=document.querySelector("link")
+  el.href="on1.css"
+  c=new SpeechSynthesisUtterance('changing font' + 'you are now viewing index page with changed font')
+  speechSynthesis.speak(c)
+}
+function onto2(){
+  const el=document.querySelector("link")
+  el.href="on2.css"
+  b=new SpeechSynthesisUtterance('changing font' + 'you are now viewing index page with changed font')
+  speechSynthesis.speak(b)
 }

@@ -1,0 +1,39 @@
+body{
+    background-color: aqua;
+    color: aquamarine;
+    margin: 3px  3px 3px  3px;
+    font-family: 'Courier New';
+    font-weight: bold;
+    font-style: italic;
+}
+h1{
+    font-family: 'Courier New';
+    font-weight: bold;
+    font-style: italic;
+    color: #33bbcc;
+    text-align: center;
+    font-size: 90px;
+}
+button{
+    border: solid #11ccdd;
+    border-radius: 30px 30px 30px 30px;
+    border: solid #1122bb;
+    margin: 12px 12px 12px 12px;
+    cursor: pointer;
+}
+p{
+    color: lightcoral;
+    text-align: center;
+    font-weight: bold;
+}
+#the , #i{
+    position:relative;
+    left:30px;
+    right: 30px;
+    top: 30px;
+    border-radius: 30px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium';
+    padding: 9px;
+    margin: 30px;
+}

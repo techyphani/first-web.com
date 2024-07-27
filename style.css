@@ -21,3 +21,26 @@ h6{
     font-style:italic;
     font-family:monospace;
 }
+button{
+    color: blue;
+    font-style: italic;
+    font-family: 'Courier New';
+}
+#firstone{
+ color: aqua;    
+}
+#secondone{
+    color: aqua;
+}
+#thirdone{
+    color: aqua;    
+   }
+   #fourthone{
+    color: aqua;    
+   }
+   #fifthone{
+    color: rgb(140, 0, 255);    
+   }
+ #sixthone{
+    color:aqua;
+ }
